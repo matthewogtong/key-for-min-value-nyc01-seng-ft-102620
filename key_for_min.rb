@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       min_value = value
     end
   end
-  hash.key(value)
+  hash.key(min_value)
 
 end
